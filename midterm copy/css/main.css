@@ -1,35 +1,29 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
-    margin-top: 0%;
-    margin-bottom: 80%;
 }
 
-/* adding container details */
 .container {
     position: relative;
     text-align: center;
+    color: white;
     padding-left: 17em;
     padding-right: 17em;
     margin-bottom: 0;
     margin: 0 auto;
 }
 
-/* adding detail to "lone starfish" font as well as fixing placement */
 .centered {
     position: absolute;
     bottom: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4.3vw;
-    color: white;
+    font-size: 5.2em;
 }
 
-/* fixing large photo */
 #big-star {
     width: 100%;
-    margin: 0%;
 }
 
 article {
@@ -47,7 +41,6 @@ header,
 main {
     margin: 0;
     padding: 0;
-    border: 0;
 }
 
 nav ul li {
@@ -55,17 +48,12 @@ nav ul li {
     width: 30%;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
     margin-right: 10px;
     border-right: 1px solid black;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     text-align: center;
 }
-
-/* editing last element individually */
-nav ul li:last-child {
-    border-right: none;
-}
-
 
 .blue-link {
     text-decoration: none;
@@ -84,20 +72,19 @@ h1 {
     font-size: 45px;
     font-weight: lighter;
     text-size-adjust: auto;
+    padding-bottom: 1.5%;
 }
-/* adding detail to small photo */
+
 #small-star {
     width: 350px;
     float: left;
     margin-right: 20px;
-    padding-right: 10px;
-    padding-bottom: 10px;
 }
 
-/* changin font size and style as well as position */
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+
     font-size: 140%;
     text-align: left;
 }
@@ -109,8 +96,8 @@ h2 {
     font-size: 35px;
     font-weight: lighter;
     text-size-adjust: auto;
-    padding-top: 10px;
-
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 ul li {
@@ -127,100 +114,46 @@ h3 {
     font-size: 35px;
     font-weight: lighter;
     text-size-adjust: auto;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 h4 {
     font-weight: 100;
 }
 
-/* changing colour of all divs */
 div {
     color: black;
 }
 
-label {
-    display: block;
-    margin-bottom: 1px;
-
+.centered {
+    color: white;
 }
 
-#contact {
-    width: 100%;
-    border: 2px solid black;
-    padding: 1.5em;
-    padding-bottom: 70px;
-    box-sizing: border-box;
-}
-
-#your-email,
-#your-message {
-    padding-top: 50px;
-}
-
-/* selecting multiple elements to edit all */
-#your-name,
-#your-email,
-#your-message {
-    text-align: left;
-    font-size: 1.4rem;
-}
-
-#yourname,
-#youremail,
-#yourmessage {
-    float: left;
-    width: 100%;
-    height: 30px;
-}
-
-#yourmessage {
-    height: 100px;
-}
-
-h4 {
-    text-align: left;
-    padding-top: 100px;
-    font-size: 1.6rem;
-}
-
-#choices {
-    display: flex;
-    align-items: center;
-    font-size: 1.4rem;
-}
-
-#choices>label {
-    padding-left: 20px;
-}
-
-#choices>label:first-child {
-    padding-left: 0%;
-}
-
-#choices>input {
-    padding-right: 20px;
-}
-
-#button {
-    background-color: #d4e9e7;
-    border: 2px solid black;
-    color: black;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-    font-size: 13px;
-    text-transform: uppercase;
-    margin: 4px 2px;
-    cursor: pointer;
-    float: left;
-
-}
 
 footer {
     text-align: right;
     color: black;
-    padding: 40px;
-    padding-bottom: 20px;
-    font-size: 1.4rem;
+}
+
+form {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+label {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+    float: left;
+}
+
+input {
+    width: 80%;
+    padding-right: 5%;
 }
