@@ -53,7 +53,7 @@ main {
 nav ul li {
     display: inline-block;
     width: 30%;
-    font-size: 35px;
+    font-size: 1.8vw;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 10px;
     border-right: 1px solid black;
