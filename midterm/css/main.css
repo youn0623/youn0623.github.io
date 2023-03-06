@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
     margin-top: 0%;
-    margin-bottom: 80%;
+    margin-bottom: 82%;
 }
 
 /* adding container details */
@@ -81,7 +81,7 @@ h1 {
     color: black;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 2.4vw;
     font-weight: lighter;
     text-size-adjust: auto;
 }
@@ -98,7 +98,7 @@ h1 {
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 140%;
+    font-size: 1.15vw;
     text-align: left;
 }
 
@@ -106,7 +106,7 @@ h2 {
     color: black;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 2vw;
     font-weight: lighter;
     text-size-adjust: auto;
     padding-top: 10px;
@@ -117,14 +117,14 @@ ul li {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: larger;
+    font-size: 1.1vw;
 }
 
 h3 {
     color: black;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 2vw;
     font-weight: lighter;
     text-size-adjust: auto;
 }
@@ -162,7 +162,7 @@ label {
 #your-email,
 #your-message {
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.3vw;
 }
 
 #yourname,
@@ -180,13 +180,13 @@ label {
 h4 {
     text-align: left;
     padding-top: 100px;
-    font-size: 1.6rem;
+    font-size: 1.5vw;
 }
 
 #choices {
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.2vw;
 }
 
 #choices>label {
@@ -209,7 +209,7 @@ h4 {
     text-align: center;
     text-decoration: none;
     position: relative;
-    font-size: 13px;
+    font-size: .7vw;
     text-transform: uppercase;
     margin: 4px 2px;
     cursor: pointer;
@@ -222,5 +222,5 @@ footer {
     color: black;
     padding: 40px;
     padding-bottom: 20px;
-    font-size: 1.4rem;
+    font-size: 1.1vw;
 }
