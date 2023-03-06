@@ -2,7 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
     margin-top: 0%;
-    margin-bottom: 82%;
 }
 
 /* adding container details */
@@ -16,6 +15,7 @@ body {
 }
 
 /* adding detail to "lone starfish" font as well as fixing placement */
+
 .centered {
     position: absolute;
     bottom: 12%;
@@ -39,17 +39,16 @@ article {
     padding: 1.5em;
     box-sizing: border-box;
     float: left;
-    padding: 15px;
     padding-top: 0;
 }
-
+/* 
 header,
 main {
     margin: 0;
     padding: 0;
     border: 0;
 }
-
+ */
 nav ul li {
     display: inline-block;
     width: 30%;
@@ -87,7 +86,8 @@ h1 {
 }
 /* adding detail to small photo */
 #small-star {
-    width: 350px;
+    width: 35%;
+    max-width: 350px;
     float: left;
     margin-right: 20px;
     padding-right: 10px;
