@@ -212,9 +212,8 @@ h4 {
     font-size: .7vw;
     text-transform: uppercase;
     margin: 4px 2px;
-    cursor: pointer;
     float: left;
-
+    cursor: pointer;
 }
 
 footer {
