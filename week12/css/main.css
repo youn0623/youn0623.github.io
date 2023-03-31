@@ -1,0 +1,26 @@
+/* 
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Noto Sans JP', sans-serif;
+*/
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* font awesome icon */
+h1 i::before {
+    font-size: 6rem;
+    color: cornflowerblue;
+}
+
+.map iframe{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
