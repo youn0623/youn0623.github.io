@@ -1,0 +1,10 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+.banner-header {
+    background-image: url(../images/main-banner.jpg);
+    height: 650px;
+    background-size: cover;
+}
