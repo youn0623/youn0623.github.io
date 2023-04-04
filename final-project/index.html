@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- icon link styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <!-- custom link style -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>Final-Project</title>
 </head>
 
 <body>
@@ -20,18 +20,20 @@
             <header class="masthead">
                 <div class="banner-container">
                     <nav class="main-nav">
-                        <img src="images/logo.png" alt="star-logo">
+                        <!-- adding navigation for website -->
                         <ul class="nav-list">
+                            <li><img src="images/logo.png" alt="star-logo"></li>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#serv">Services</a></li>
                             <li><a href="#team">Team</a></li>
                             <li><a href="#contact">Contact</a></li>
+                            <li><input type="text" placeholder="Search"><button type="submit"><i
+                                    class="fa-sharp fa-solid fa-magnifying-glass"></i></button></li>
                         </ul>
                     </nav>
                 </div>
-                <input type="text" placeholder="Search"><button type="submit"><i
-                        class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                <!-- adds banner -->
                 <div class="banner-header">
                     <div class="banner-box">
                         <h1>Welcome to Three Star Media</h1>
@@ -44,18 +46,21 @@
             </header>
         </div>
         <main>
-            <section class="sec-one">
+            <!-- adding about us section -->
+            <section class="sec-one" id="about">
                 <div class="container-us">
                     <img src="images/about-us.jpg" alt="us-image">
-                    <h2 id="about">About Us</h2>
+                    <h2>About Us</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolor, impedit molestiae
                         odio ab mollitia ut iure dolorem eius nesciunt obcaecati exercitationem facilis. Nihil atque
                         vitae reprehenderit voluptatibus fugit tenetur.</p>
                 </div>
             </section>
-            <section class="Sec-two">
-                <h2 id="serv">Our Services</h2>
+            <!-- adds section two which contains cards -->
+            <section class="Sec-two" id="serv">
+                <h2>Our Services</h2>
                 <div class="top-left">
+                    <!-- adding image for section 2 -->
                     <img src="images/digital.jpg" alt="digital">
                     <h3>Digital Transformation</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur dignissimos,
@@ -96,6 +101,7 @@
                     <a href="#" class="button">Print Plans</a>
                 </div>
             </section>
+            <!-- adding section 3 "our vision" -->
             <section class="Sec-three">
                 <div class="Our-Vision">
                     <h4>Our Vision</h4>
@@ -105,8 +111,9 @@
                     <a href="#" class="button">Learn More</a>
                 </div>
             </section>
-            <section class="Sec-four">
-                <h2 id="team">Our Team</h2>
+            <!-- adding section 4 containing our team with picture and description of team members -->
+            <section class="Sec-four" id="team">
+                <h2>Our Team</h2>
                 <div class="John-Doe">
                     <img src="images/john.jpg" alt="John">
                     <h3>John Doe</h3>
@@ -124,8 +131,9 @@
                         nihil amet aut a. Accusantium, velit!</p>
                 </div>
             </section>
-            <section class="sec-five">
-                <h2 id="contact">Contact Us</h2>
+            <!-- ads section for contact page which caontains text areas for email and to send message, hours of operation, as well as map -->
+            <section class="sec-five" id="contact">
+                <h2>Contact Us</h2>
                 <div>
                     <h3>Send us a message</h3>
                     <label for="fullname" id="full-name">Full Name</label>
@@ -170,12 +178,13 @@
                 </div>
             </section>
         </main>
-        <div class="foot">
+        <!-- adding footer -->
             <footer>
-                &copy; Three Star Media, 2020
-                <p>All images are taken from Unsplash</p>
+                <div>
+                    <p>&copy; Three Star Media, 2020</p>
+                    <p>All images are taken from Unsplash</p>
+                </div>
             </footer>
-        </div>
     </div>
 </body>
 
