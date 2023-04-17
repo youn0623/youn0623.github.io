@@ -310,6 +310,10 @@ h6 {
     padding: 15px;
 }
 
+.message-area{
+    margin-right: 15px;
+}
+
 /* selecting multiple elements to edit all */
 label,
 textarea {
