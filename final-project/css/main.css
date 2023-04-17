@@ -173,6 +173,7 @@ h2 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .p2 {
     padding-bottom: 20px;
 }
@@ -491,7 +492,7 @@ ___________________________________ */
         margin-bottom: 30px;
         padding: 0px;
     }
-   
+
 
     .Sec-two .os {
         grid-column-end: span 2;
@@ -566,21 +567,27 @@ ___________________________________ */
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
-    .john-doe, .bob-rite {
+
+    .john-doe,
+    .bob-rite {
         background-color: #ffe6ac;
         margin: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    .Sec-four, .john{
+
+    .Sec-four,
+    .john {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
-    .Sec-four, .bob{
+
+    .Sec-four,
+    .bob {
         grid-column: 2 / 2;
         grid-row: 3 / 3;
     }
-    
+
 
     /* section 5 */
     .sec-five {
