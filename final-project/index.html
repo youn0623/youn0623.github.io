@@ -10,6 +10,12 @@
     <!-- custom link style -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
     <title>Final-Project</title>
 </head>
 
@@ -22,16 +28,16 @@
                     <nav class="main-nav">
                         <!-- adding navigation for website -->
                         <ul class="nav-list">
-                            <li><img src="images/logo.png" alt="star-logo"></li>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#serv">Services</a></li>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><img src="images/logo.png" alt="star-logo" class="star"></li>
+                            <li><a href="index.html" class="blue-link-1">Home</a></li>
+                            <li><a href="#about" class="blue-link">About Us</a></li>
+                            <li><a href="#serv" class="blue-link">Services</a></li>
+                            <li><a href="#team" class="blue-link">Team</a></li>
+                            <li><a href="#contact" class="blue-link">Contact</a></li>
                             <li>
-                                <form class=search action="#">
-                                    <input type="text" placeholder="Search"><button type="submit"><i
-                                            class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                                <form action="#">
+                                    <input class=search type="text" placeholder="Search"><button class="search-button"
+                                        type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
                                 </form>
                             </li>
                         </ul>
@@ -41,10 +47,13 @@
                 <div class="banner-header">
                     <div class="banner-box">
                         <h1>Welcome to Three Star Media</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, minus odio ipsum dolore
+                        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, minus odio ipsum
+                            dolore
                             deleniti atque, nisi itaque non reprehenderit pariatur sunt hic iusto? Labore eaque beatae
                             quasi obcaecati laudantium eveniet.</p>
-                        <a href="#" class="btn">Connect with us</a>
+                        <a href="#" class="btn">Connect with us<i class="fa-solid fa-play"
+                                style="color: #000000;"></i></a>
+
                     </div>
                 </div>
             </header>
@@ -53,95 +62,111 @@
             <!-- adding about us section -->
             <section class="sec-one" id="about">
                 <div class="container-us">
-                    <img src="images/about-us.jpg" alt="us-image">
-                    <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolor, impedit molestiae
-                        odio ab mollitia ut iure dolorem eius nesciunt obcaecati exercitationem facilis. Nihil atque
-                        vitae reprehenderit voluptatibus fugit tenetur.</p>
+                    <img src="images/about-us.jpg" alt="us-image" class="us-img">
+                    <div>
+                        <h2 class="abt-us">About Us</h2>
+                        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolor, impedit
+                            molestiae
+                            odio ab mollitia ut iure dolorem eius nesciunt obcaecati exercitationem facilis. Nihil atque
+                            vitae reprehenderit voluptatibus fugit tenetur.</p>
+                        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolor, impedit
+                            molestiae
+                            odio ab mollitia ut iure dolorem eius nesciunt obcaecati exercitationem facilis. Nihil atque
+                            vitae reprehenderit voluptatibus fugit tenetur.</p>
+
+                    </div>
                 </div>
             </section>
             <!-- adds section two which contains cards -->
             <section class="Sec-two" id="serv">
-                <h2>Our Services</h2>
+                <h2 class="os">Our Services</h2>
                 <div class="top-left">
                     <!-- adding image for section 2 -->
-                    <img src="images/digital.jpg" alt="digital">
+                    <img src="images/digital.jpg" alt="digital" class="serv-image">
                     <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur dignissimos,
+                    <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur
+                        dignissimos,
                         quidem sed a, adipisci cum aspernatur tempore nobis nihil explicabo assumenda esse. Illo
                         atque quos iure itaque a dicta!</p>
-                    <a href="#" class="button">Digital Plans</a>
+                    <a href="#" class="button1">Digital Plans<i class="fa-solid fa-play" style="color: white;"></i></a>
                 </div>
                 <div class="top-right">
-                    <img src="images/marketing.jpg" alt="marketing">
+                    <img src="images/marketing.jpg" alt="marketing" class="serv-image">
                     <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur dignissimos,
+                    <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tenetur
+                        dignissimos,
                         quidem sed a, adipisci cum aspernatur tempore nobis nihil explicabo assumenda esse. Illo
                         atque quos iure itaque a dicta!</p>
-                    <a href="#" class="button">Marketing</a>
+                    <a href="#" class="button1">Marketing<i class="fa-solid fa-play" style="color: white;"></i></a>
                 </div>
                 <div class="bottom-left">
-                    <img src="images/video.jpg" alt="video">
+                    <img src="images/video.jpg" alt="video" class="serv-image">
                     <h3>Video Production</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore, debitis tempore dolorum
+                    <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore, debitis tempore
+                        dolorum
                         culpa cumque illum esse laborum mollitia accusamus! Suscipit, voluptate error. Dolore beatae
                         eaque sequi corporis recusandae voluptates?</p>
-                    <a href="#" class="button">Video Plans</a>
+                    <a href="#" class="button1">Video Plans<i class="fa-solid fa-play" style="color: white;"></i></a>
                 </div>
                 <div class="bottom-middle">
-                    <img src="images/web.jpg" alt="web">
+                    <img src="images/web.jpg" alt="web" class="serv-image">
                     <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae autem sed, aliquid eos
-                        suscipit aut excepturi esse, quaerat voluptates enim odio libero iusto voluptate id,
-                        voluptatibus laborum voluptas odit quibusdam!</p>
-                    <a href="#" class="button">Web Plans</a>
+                    <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore, debitis tempore
+                        dolorum
+                        culpa cumque illum esse laborum mollitia accusamus! Suscipit, voluptate error. Dolore beatae
+                        eaque sequi corporis recusandae voluptates?</p>
+                    <a href="#" class="button1">Web Plans<i class="fa-solid fa-play" style="color: white;"></i></a>
                 </div>
                 <div class="bottom-right">
-                    <img src="images/print.jpg" alt="Print-pic">
+                    <img src="images/print.jpg" alt="Print-pic" class="serv-image">
                     <h3>Print</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maiores, ad quis nisi
-                        corrupti animi expedita accusantium sunt reprehenderit voluptatem, quod, voluptates vitae
-                        maxime provident! Repellat assumenda architecto provident in.</p>
-                    <a href="#" class="button">Print Plans</a>
+                    <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore, debitis tempore
+                        dolorum
+                        culpa cumque illum esse laborum mollitia accusamus! Suscipit, voluptate error. Dolore beatae
+                        eaque sequi corporis recusandae voluptates?</p>
+                    <a href="#" class="button1">Print Plans<i class="fa-solid fa-play" style="color: white;"></i></a>
                 </div>
             </section>
             <!-- adding section 3 "our vision" -->
             <section class="Sec-three">
                 <div class="Our-Vision">
                     <h4>Our Vision</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non recusandae placeat a
+                    <p class="p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non recusandae placeat a
                         tempore delectus saepe corrupti ducimus, facere architecto aliquid natus, et suscipit
                         consequuntur nemo beatae iste laboriosam impedit voluptatibus.</p>
-                    <a href="#" class="button">Learn More</a>
+                    <a href="#" class="button-vis">Learn More<i class="fa-solid fa-play" style="color: white;"></i></a>
                 </div>
             </section>
             <!-- adding section 4 containing our team with picture and description of team members -->
             <section class="Sec-four" id="team">
-                <h2>Our Team</h2>
-                <div class="John-Doe">
-                    <img src="images/john.jpg" alt="John">
-                    <h3>John Doe</h3>
-                    <h5>CEO and Co-owner</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ipsum labore nisi
+                <h2 class="teams">Our Team</h2>
+                <img src="images/john.jpg" alt="John" class="john">
+                <div class="john-doe">
+                    <h5>John Doe</h5>
+                    <h6>CEO and Co-owner</h6>
+                    <p class="p5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ipsum labore
+                        nisi
                         officiis temporibus vitae, eaque dicta dolor excepturi, saepe tempore at dolorum quae
-                        nihil amet aut a. Accusantium, velit!</p>
+                        nihil amet aut a. Accusantium, velit!
+                    </p>
                 </div>
-                <div class="Bob-rite">
-                    <img src="images/bob.jpg" alt="bob">
-                    <h3>Bob Rite</h3>
-                    <h5>CFO and Co-owner</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ipsum labore nisi
+                <img src="images/bob.jpg" alt="bob" class="bob">
+                <div class="bob-rite">
+                    <h5>Bob Rite</h5>
+                    <h6>CFO and Co-owner</h6>
+                    <p class="p5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ipsum labore nisi
                         officiis temporibus vitae, eaque dicta dolor excepturi, saepe tempore at dolorum quae
-                        nihil amet aut a. Accusantium, velit!</p>
+                        nihil amet aut a. Accusantium, velit!
+                    </p>
                 </div>
             </section>
             <!-- ads section for contact page which caontains text areas for email and to send message, hours of operation, as well as map -->
             <section class="sec-five" id="contact">
-                <h2>Contact Us</h2>
-                <div>
-                    <h3>Send us a message</h3>
+                <h2 class="contact">Contact Us</h2>
+                <div class="message-area">
+                    <h3 class="cont-head">Send us a message</h3>
                     <label for="fullname" id="full-name">Full Name</label>
-                    <input type="text" id="fullname" name="fullname">
+                    <input class="in-put" type="text" id="fullname" name="fullname">
 
                     <label for="youremail" id="your-email">Email</label>
                     <input type="email" id="youremail" name="youremail">
@@ -149,10 +174,10 @@
                     <label for="yourmessage" id="your-message">Message</label>
                     <textarea name="yourmessage" id="yourmessage" cols="30" rows="10"></textarea>
                     <!-- adding "send" button -->
-                    <button id="button" type="submit">send</button>
+                    <button id="buttons" type="submit">Send</button>
                 </div>
                 <div class="table">
-                    <h3>Hours of operation</h3>
+                    <h3 class="cont-head">Hours of operation</h3>
                     <table>
                         <thead>
                             <tr>
@@ -173,9 +198,9 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="Locate">
-                    <h3>Location</h3>
-                    <map name="Algonquin"><iframe
+                <div class="Locate" id="map-container">
+                    <h3 class="cont-head">Location</h3>
+                    <map name="Algonquin"><iframe id="map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1105.8458021464535!2d-75.75606639724958!3d45.35036613800297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680282004180!5m2!1sen!2sca"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe></map>
@@ -185,8 +210,8 @@
         <!-- adding footer -->
         <footer>
             <div>
-                <p>&copy; Three Star Media, 2020</p>
-                <p>All images are taken from Unsplash</p>
+                <p class="c">&copy; Copyright Three Star Media, 2020</p>
+                <p class="c+">All images are taken from <span class="underline">Unsplash</span></p>
             </div>
         </footer>
     </div>
